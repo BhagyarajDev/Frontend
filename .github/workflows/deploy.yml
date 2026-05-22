@@ -18,10 +18,13 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 24
+        node-version: 22
 
     - name: Install Dependencies
       run: npm install
+
+    - name: Run Tests
+      run: npm test -- --watchAll=false
 
     - name: Build React App
       run: npm run build
