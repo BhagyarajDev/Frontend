@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "react-scripts test"
+    "test": "vitest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
@@ -22,6 +22,7 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.14.2",
     "tailwindcss": "^4.2.4",
+    "vitest": "^4.1.7",
     "yup": "^1.7.1"
   },
   "devDependencies": {
